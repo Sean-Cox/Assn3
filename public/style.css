@@ -1,0 +1,13 @@
+* {box-sizing: border-box; padding: 0; margin: 0;}
+body { font: 13px Helvetica, Arial; height: 100vh; min-width: 600px}
+form { background: #000; padding: 3px; position: fixed; width: inherit;}
+form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+form button { width: 9%; background-color: darkorange; border: none; padding: 10px; min-width: 50px; margin-right: 0;}
+#messages { list-style-type: none; margin: 0; padding: 0; top: 0; height: 50%; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }
+.flex-container {display: -webkit-flex; display: flex; width: inherit; height: 100%; -webkit-flex-flow: column wrap; flex-flow: column wrap;}
+#messTab {width: 80%; height: 90%; margin-bottom: auto; overflow-y: scroll}
+#inputTab {width: 80%; height: 41px; bottom: 0;}
+#userList {width: 20%; min-width: 50px; height: inherit; background-color: darkgrey; margin: 0; border: solid; border-color:  black; position: fixed; bottom: 0px; right: 0}
+#userLabel { background: #000; position: fixed; bottom: 0; width: inherit; text-align: center; color: darkorange; height: auto; padding: 13px; border: 0: margin: 0; margin-bottom: 0; padding-left: 0; padding-right: 0;}
